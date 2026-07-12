@@ -29,6 +29,13 @@ body {
   color: #e94560;
 }
 
+.current-time {
+  font-size: 1.1rem;
+  color: #aaa;
+  letter-spacing: 0.1em;
+  font-variant-numeric: tabular-nums;
+}
+
 .timer {
   width: 260px;
   height: 260px;

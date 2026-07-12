@@ -1,3 +1,14 @@
+function updateCurrentTime() {
+  const now = new Date();
+  const h = String(now.getHours()).padStart(2, '0');
+  const m = String(now.getMinutes()).padStart(2, '0');
+  const s = String(now.getSeconds()).padStart(2, '0');
+  document.getElementById('currentTime').textContent = `${h}:${m}:${s}`;
+}
+
+updateCurrentTime();
+setInterval(updateCurrentTime, 1000);
+
 function getSavedMinutes() {
   const saved = localStorage.getItem('timerMinutes');
   return saved ? Number(saved) : 25;
