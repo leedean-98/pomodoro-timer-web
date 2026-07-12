@@ -1,0 +1,39 @@
+.setting-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: #e94560;
+}
+
+.setting-row {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 260px;
+}
+
+.setting-row label {
+  font-size: 0.95rem;
+  color: #aaa;
+}
+
+.setting-row input {
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid #333;
+  background-color: #16213e;
+  color: #eee;
+  font-size: 1.1rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.setting-row input:focus {
+  border-color: #e94560;
+}
+
+.btn-save {
+  background-color: #e94560;
+  color: #fff;
+  width: 260px;
+}
